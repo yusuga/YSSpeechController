@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B862435418E0990D00484665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862435318E0990D00484665 /* Foundation.framework */; };
+		B862435618E0990D00484665 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862435518E0990D00484665 /* CoreGraphics.framework */; };
+		B862435818E0990D00484665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862435718E0990D00484665 /* UIKit.framework */; };
+		B862435E18E0990D00484665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B862435C18E0990D00484665 /* InfoPlist.strings */; };
+		B862436018E0990D00484665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B862435F18E0990D00484665 /* main.m */; };
+		B862436418E0990D00484665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B862436318E0990D00484665 /* AppDelegate.m */; };
+		B862436718E0990D00484665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B862436518E0990D00484665 /* Main.storyboard */; };
+		B862436A18E0990D00484665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B862436918E0990D00484665 /* ViewController.m */; };
+		B862436C18E0991300484665 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B862436B18E0991300484665 /* Images.xcassets */; };
+		B862437318E0991300484665 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862437218E0991300484665 /* XCTest.framework */; };
+		B862437418E0991300484665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862435318E0990D00484665 /* Foundation.framework */; };
+		B862437518E0991300484665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862435718E0990D00484665 /* UIKit.framework */; };
+		B862437D18E0991300484665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B862437B18E0991300484665 /* InfoPlist.strings */; };
+		B862437F18E0991300484665 /* YSSpeechControllerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B862437E18E0991300484665 /* YSSpeechControllerExampleTests.m */; };
+		B862438B18E0993400484665 /* YSSpeechController.m in Sources */ = {isa = PBXBuildFile; fileRef = B862438A18E0993400484665 /* YSSpeechController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B862437618E0991300484665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B862434818E0990D00484665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B862434F18E0990D00484665;
+			remoteInfo = YSSpeechControllerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B862435018E0990D00484665 /* YSSpeechControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSSpeechControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B862435318E0990D00484665 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B862435518E0990D00484665 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B862435718E0990D00484665 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B862435B18E0990D00484665 /* YSSpeechControllerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YSSpeechControllerExample-Info.plist"; sourceTree = "<group>"; };
+		B862435D18E0990D00484665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B862435F18E0990D00484665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B862436118E0990D00484665 /* YSSpeechControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YSSpeechControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		B862436218E0990D00484665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B862436318E0990D00484665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B862436618E0990D00484665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B862436818E0990D00484665 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B862436918E0990D00484665 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B862436B18E0991300484665 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B862437118E0991300484665 /* YSSpeechControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSSpeechControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B862437218E0991300484665 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B862437A18E0991300484665 /* YSSpeechControllerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YSSpeechControllerExampleTests-Info.plist"; sourceTree = "<group>"; };
+		B862437C18E0991300484665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B862437E18E0991300484665 /* YSSpeechControllerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSSpeechControllerExampleTests.m; sourceTree = "<group>"; };
+		B862438918E0993400484665 /* YSSpeechController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSSpeechController.h; sourceTree = "<group>"; };
+		B862438A18E0993400484665 /* YSSpeechController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSSpeechController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B862434D18E0990D00484665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862435618E0990D00484665 /* CoreGraphics.framework in Frameworks */,
+				B862435818E0990D00484665 /* UIKit.framework in Frameworks */,
+				B862435418E0990D00484665 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B862436E18E0991300484665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862437318E0991300484665 /* XCTest.framework in Frameworks */,
+				B862437518E0991300484665 /* UIKit.framework in Frameworks */,
+				B862437418E0991300484665 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B862434718E0990D00484665 = {
+			isa = PBXGroup;
+			children = (
+				B862435918E0990D00484665 /* YSSpeechControllerExample */,
+				B862438818E0992A00484665 /* YSSpeechController */,
+				B862437818E0991300484665 /* YSSpeechControllerExampleTests */,
+				B862435218E0990D00484665 /* Frameworks */,
+				B862435118E0990D00484665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B862435118E0990D00484665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B862435018E0990D00484665 /* YSSpeechControllerExample.app */,
+				B862437118E0991300484665 /* YSSpeechControllerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B862435218E0990D00484665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B862435318E0990D00484665 /* Foundation.framework */,
+				B862435518E0990D00484665 /* CoreGraphics.framework */,
+				B862435718E0990D00484665 /* UIKit.framework */,
+				B862437218E0991300484665 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B862435918E0990D00484665 /* YSSpeechControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				B862436218E0990D00484665 /* AppDelegate.h */,
+				B862436318E0990D00484665 /* AppDelegate.m */,
+				B862436518E0990D00484665 /* Main.storyboard */,
+				B862436818E0990D00484665 /* ViewController.h */,
+				B862436918E0990D00484665 /* ViewController.m */,
+				B862436B18E0991300484665 /* Images.xcassets */,
+				B862435A18E0990D00484665 /* Supporting Files */,
+			);
+			path = YSSpeechControllerExample;
+			sourceTree = "<group>";
+		};
+		B862435A18E0990D00484665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B862435B18E0990D00484665 /* YSSpeechControllerExample-Info.plist */,
+				B862435C18E0990D00484665 /* InfoPlist.strings */,
+				B862435F18E0990D00484665 /* main.m */,
+				B862436118E0990D00484665 /* YSSpeechControllerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B862437818E0991300484665 /* YSSpeechControllerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B862437E18E0991300484665 /* YSSpeechControllerExampleTests.m */,
+				B862437918E0991300484665 /* Supporting Files */,
+			);
+			path = YSSpeechControllerExampleTests;
+			sourceTree = "<group>";
+		};
+		B862437918E0991300484665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B862437A18E0991300484665 /* YSSpeechControllerExampleTests-Info.plist */,
+				B862437B18E0991300484665 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B862438818E0992A00484665 /* YSSpeechController */ = {
+			isa = PBXGroup;
+			children = (
+				B862438918E0993400484665 /* YSSpeechController.h */,
+				B862438A18E0993400484665 /* YSSpeechController.m */,
+			);
+			name = YSSpeechController;
+			path = ../../Classes/YSSpeechController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B862434F18E0990D00484665 /* YSSpeechControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B862438218E0991300484665 /* Build configuration list for PBXNativeTarget "YSSpeechControllerExample" */;
+			buildPhases = (
+				B862434C18E0990D00484665 /* Sources */,
+				B862434D18E0990D00484665 /* Frameworks */,
+				B862434E18E0990D00484665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSSpeechControllerExample;
+			productName = YSSpeechControllerExample;
+			productReference = B862435018E0990D00484665 /* YSSpeechControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B862437018E0991300484665 /* YSSpeechControllerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B862438518E0991300484665 /* Build configuration list for PBXNativeTarget "YSSpeechControllerExampleTests" */;
+			buildPhases = (
+				B862436D18E0991300484665 /* Sources */,
+				B862436E18E0991300484665 /* Frameworks */,
+				B862436F18E0991300484665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B862437718E0991300484665 /* PBXTargetDependency */,
+			);
+			name = YSSpeechControllerExampleTests;
+			productName = YSSpeechControllerExampleTests;
+			productReference = B862437118E0991300484665 /* YSSpeechControllerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B862434818E0990D00484665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yu Sugawara";
+				TargetAttributes = {
+					B862437018E0991300484665 = {
+						TestTargetID = B862434F18E0990D00484665;
+					};
+				};
+			};
+			buildConfigurationList = B862434B18E0990D00484665 /* Build configuration list for PBXProject "YSSpeechControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B862434718E0990D00484665;
+			productRefGroup = B862435118E0990D00484665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B862434F18E0990D00484665 /* YSSpeechControllerExample */,
+				B862437018E0991300484665 /* YSSpeechControllerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B862434E18E0990D00484665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862436C18E0991300484665 /* Images.xcassets in Resources */,
+				B862435E18E0990D00484665 /* InfoPlist.strings in Resources */,
+				B862436718E0990D00484665 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B862436F18E0991300484665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862437D18E0991300484665 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B862434C18E0990D00484665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862436A18E0990D00484665 /* ViewController.m in Sources */,
+				B862436418E0990D00484665 /* AppDelegate.m in Sources */,
+				B862436018E0990D00484665 /* main.m in Sources */,
+				B862438B18E0993400484665 /* YSSpeechController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B862436D18E0991300484665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862437F18E0991300484665 /* YSSpeechControllerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B862437718E0991300484665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B862434F18E0990D00484665 /* YSSpeechControllerExample */;
+			targetProxy = B862437618E0991300484665 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B862435C18E0990D00484665 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B862435D18E0990D00484665 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B862436518E0990D00484665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B862436618E0990D00484665 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B862437B18E0991300484665 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B862437C18E0991300484665 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B862438018E0991300484665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B862438118E0991300484665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B862438318E0991300484665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSSpeechControllerExample/YSSpeechControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "YSSpeechControllerExample/YSSpeechControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B862438418E0991300484665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSSpeechControllerExample/YSSpeechControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "YSSpeechControllerExample/YSSpeechControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B862438618E0991300484665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YSSpeechControllerExample.app/YSSpeechControllerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSSpeechControllerExample/YSSpeechControllerExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YSSpeechControllerExampleTests/YSSpeechControllerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B862438718E0991300484665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YSSpeechControllerExample.app/YSSpeechControllerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSSpeechControllerExample/YSSpeechControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "YSSpeechControllerExampleTests/YSSpeechControllerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B862434B18E0990D00484665 /* Build configuration list for PBXProject "YSSpeechControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B862438018E0991300484665 /* Debug */,
+				B862438118E0991300484665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B862438218E0991300484665 /* Build configuration list for PBXNativeTarget "YSSpeechControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B862438318E0991300484665 /* Debug */,
+				B862438418E0991300484665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B862438518E0991300484665 /* Build configuration list for PBXNativeTarget "YSSpeechControllerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B862438618E0991300484665 /* Debug */,
+				B862438718E0991300484665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B862434818E0990D00484665 /* Project object */;
+}
